@@ -1,0 +1,36 @@
+{
+  "name": "filestack-transformations",
+  "version": "1.0.0",
+  "description": "Filestack's tranformations",
+  "main": "index.js",
+  "author": "Sam Zaza",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "api": "json-server --watch db.json"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-class-properties": "^6.22.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.14.1",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-react": "^6.9.0",
+    "html-webpack-plugin": "^2.26.0",
+    "json-server": "^0.9.4",
+    "react-hot-loader": "next",
+    "style-loader": "^0.13.1",
+    "webpack": "beta",
+    "webpack-dev-server": "beta"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^3.0.2"
+  }
+}
